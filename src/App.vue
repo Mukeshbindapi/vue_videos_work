@@ -1,0 +1,21 @@
+<template>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <Home></Home>
+</template>
+
+<script>
+import Home from './components/Home.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Home
+  }
+}
+</script>
+
+<style>
+  #app {
+    text-align: center;
+  }
+</style>
